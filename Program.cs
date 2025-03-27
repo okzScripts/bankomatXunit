@@ -7,7 +7,7 @@ class Program
     static void Main(string[] args)
     {
         Bankomat bankomat = new Bankomat();
-        Account account = new Account();
+        Account account = new Account(10000);
         Card card = new Card(account);
         bankomat.insertCard(card);
         Console.WriteLine(bankomat.getMessage());
