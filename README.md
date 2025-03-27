@@ -1,3 +1,0 @@
-# bankomat-dotnet
-
-Yadda
